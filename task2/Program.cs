@@ -16,10 +16,12 @@ if (a > b && a > c )
 {
      Console.WriteLine($"max = {a}");
 }
-else if (b > a && b > c)
-{
+else   if (b > a && b > c)
+    {
         Console.WriteLine($"max = {b}");
-}
-else { 
+    }
+
+else 
+{ 
     Console.WriteLine($"max = {c}");
 }
