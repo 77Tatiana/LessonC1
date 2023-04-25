@@ -3,7 +3,7 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.Write("Введите число a:");
+Console.Write("Введите число:");
 int a = Convert.ToInt32(Console.ReadLine());
 if ( a % 2 == 0)
 {
